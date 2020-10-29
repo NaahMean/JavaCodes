@@ -22,7 +22,7 @@ public class SquareDigit {
 		digit = (temp % 10);
 		temp = temp/10;
 		strArray[count1] = Integer.toString(digit*digit);
-		sqString = sqString + strArray[count1];
+		sqString = strArray[count1] + sqString;
 		count1++;
 	}
 	
